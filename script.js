@@ -6,7 +6,7 @@ const PIXIFilters = await import("https://cdn.jsdelivr.net/npm/pixi-filters@late
 
 document.addEventListener("DOMContentLoaded", () => {
     // Get the div from Webflow
-    const container = document.getElementById("pixi-container");
+    const container = document.getElementById("pixi-eye");
   // Create a PixiJS application
     const app = new PIXI.Application({
         width: 320,
